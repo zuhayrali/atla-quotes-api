@@ -11,8 +11,6 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250613.0",
     "@types/node": "^24.0.1",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
     "wrangler": "^4.4.0"
   }
 }
