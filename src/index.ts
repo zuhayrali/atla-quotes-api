@@ -21,6 +21,19 @@ app.get('/auth/page', (c) => {
   return c.text('You are authorized')
 })
 
+app.get('/quotes', (c) => {
+  return c.json(quotes); 
+});
+
+app.get('/quote-by-id/:id', async (c) => { 
+  const id = parseInt(c.req.param('id'));
+  if(id > quotes.length) { 
+    return c.text(`Quote ${id} does not exist :)`, 400);
+  }
+  const quote = quotes.find(quote => quote.id === id);
+  return c.json(quote)
+})
+
 app.get('/random-quote', (c) => {
   const randomIndex = Math.floor(Math.random() * quotes.length);
   return c.json(quotes[randomIndex]); 
@@ -38,15 +51,6 @@ app.get('/random-character-quote/:character', (c) => {
   return c.json(characterQuotes[randomIndex]); 
 });
 
-app.get('/quote-by-id/:id', async (c) => { 
-  const id = parseInt(c.req.param('id'));
-  if(id > quotes.length) { 
-    return c.text(`Quote ${id} does not exist :)`, 400);
-  }
-  const quote = quotes.find(quote => quote.id === id);
-  return c.json(quote)
-})
-
 app.get('/quotes-by-character/:character', async (c) => { 
   const character = c.req.param('character');
   const characterQuotes = quotes.filter(quotes => quotes["character"] == character);
@@ -57,7 +61,5 @@ app.get('/quotes-by-character/:character', async (c) => {
   
   return c.json(characterQuotes)
 })
-
-
 
 export default app
