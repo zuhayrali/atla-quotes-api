@@ -2,7 +2,7 @@ import os
 import json
 
 # Define the folder path containing the text files
-folder_path = 'quotes'
+folder_path = 'quotes/raw'
 
 # Initialize an empty list to store quotes
 quotes = []
@@ -22,13 +22,13 @@ for filename in os.listdir(folder_path):
                 # Append a dictionary containing the quote details to the list
                 quotes.append({
                     "id": n_quote,
-                    "author": author_name,
+                    "character": author_name,
                     "quote": quote
                 })
                 n_quote+=1
 
 # Define the path for the output JSON file
-json_file_path = 'src/quotes.json'
+json_file_path = 'quotes.json'
 
 # Write the list of quotes to a JSON file
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
