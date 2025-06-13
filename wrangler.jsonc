@@ -2,7 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "atla-quotes-api",
   "main": "src/index.ts",
-  "compatibility_date": "2025-06-13"
+  "compatibility_date": "2025-06-13",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS"
+  }
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
