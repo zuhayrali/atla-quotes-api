@@ -1,0 +1,9 @@
+"$schema" = "node_modules/wrangler/config-schema.json"
+name = "atla-quotes-api"
+compatibility_date = "2025-06-13"
+main = "src/index.ts"
+minify = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
