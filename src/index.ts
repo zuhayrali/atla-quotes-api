@@ -25,6 +25,7 @@ app.get('/', (c) => {
 
   let HTML = `<!doctype html>
       <head>
+        <title>ATLA Quotes API</title>
         <style>
           html {
             background-color: beige;
