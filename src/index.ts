@@ -83,7 +83,7 @@ app.get('/quotes', (c) => {
   return c.json(quotes); 
 });
 
-app.get('/quotes/:id', async (c) => { 
+app.get('/quotes/:id', (c) => { 
   const id = parseInt(c.req.param('id'));
   if(id > quotes.length || id <= 0) { 
     return c.text(`Quote ${id} does not exist :)`, 400);
