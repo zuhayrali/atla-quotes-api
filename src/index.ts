@@ -57,7 +57,7 @@ app.get('/', (c) => {
   HTML += `
   <h3>TODO</h3>
   <ul>
-    <li>[  ] OpenAPI / Swagger docs </li>
+    <li>[ x ] OpenAPI / Swagger docs </li>
     <li>[  ] Add 10 quotes per character </li>
     <li>[  ] Add 3 1-bit images per character </li>
     <li>[  ] Add image url to quote response </li>
