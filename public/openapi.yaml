@@ -1,0 +1,175 @@
+openapi: 3.1.0
+info:
+  title: ATLA Quotes API
+  version: 1.0.0
+  description: |
+    A simple API serving quotes from Avatar: The Last Airbender.
+    Built for plugin development on [trmnl](https://usetrmnl.com/).
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: http://localhost:8787
+  - url: https://atla-quotes-api.zuhayr.workers.dev
+  - url: https://atla.zuhayrali.com
+
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+
+  schemas:
+    Quote:
+      type: object
+      required:
+        - id
+        - character
+        - quote
+      properties:
+        id:
+          type: integer
+          example: 1
+        character:
+          type: string
+          example: Iroh
+        quote:
+          type: string
+          example: Sharing tea with a fascinating stranger is one of life's true delights.
+        characterImg:
+          type: string
+          format: uri
+          example: https://example.com/images/iroh_0.png
+
+paths:
+  /:
+    get:
+      summary: Homepage (HTML)
+      description: Returns a summary of available quotes and TODO list.
+      responses:
+        '200':
+          description: HTML homepage
+          content:
+            text/html:
+              schema:
+                type: string
+
+  /auth/page:
+    get:
+      summary: Auth Test Endpoint
+      security:
+        - BasicAuth: []
+      responses:
+        '200':
+          description: Authenticated message
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: You are authorized
+
+  /quotes:
+    get:
+      summary: Get all quotes
+      security:
+        - BasicAuth: []
+      responses:
+        '200':
+          description: A list of all quotes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+
+  /quotes/{id}:
+    get:
+      summary: Get quote by ID
+      security:
+        - BasicAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        '200':
+          description: A quote object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quote'
+        '400':
+          description: Invalid ID
+
+  /quotes-by-character:
+    get:
+      summary: Get quotes by character
+      security:
+        - BasicAuth: []
+      parameters:
+        - name: character
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Iroh
+      responses:
+        '200':
+          description: Quotes for a given character
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Quote'
+        '400':
+          description: No character provided or not found
+
+  /random-quote:
+    get:
+      summary: Get a random quote (optionally filtered by character)
+      security:
+        - BasicAuth: []
+      parameters:
+        - name: character
+          in: query
+          required: false
+          schema:
+            type: string
+            example: Zuko
+      responses:
+        '200':
+          description: A random quote object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quote'
+        '301':
+          description: Redirect to random-character-quote
+
+  /random-character-quote:
+    get:
+      summary: Get a random quote for a specific character
+      security:
+        - BasicAuth: []
+      parameters:
+        - name: character
+          in: query
+          required: true
+          schema:
+            type: string
+            example: Toph
+      responses:
+        '200':
+          description: A random quote object
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Quote'
+        '400':
+          description: No character provided or not found
