@@ -21,172 +21,287 @@
     },
     {
         "id": 5,
-        "character": "bumi",
-        "quote": "Pants are an illusion and so is death."
+        "character": "aang",
+        "quote": "No Firelord Ozai. You\u2019re not wearing pants"
     },
     {
         "id": 6,
-        "character": "bumi",
-        "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities."
+        "character": "aang",
+        "quote": "I mean I'd rather kiss you than die! That's a compliment!"
     },
     {
         "id": 7,
-        "character": "bumi",
-        "quote": "I didn't know what or when, but I knew I'd know it when I knew it!"
+        "character": "aang",
+        "quote": "Flameo, hotman!"
     },
     {
         "id": 8,
-        "character": "bumi",
-        "quote": "Lettuce leave?"
+        "character": "aang",
+        "quote": "Will you go penguin sledding with me?"
     },
     {
         "id": 9,
-        "character": "iroh",
-        "quote": "There is nothing wrong with letting people who love you help you. Not that I love you. I just met you."
+        "character": "aang",
+        "quote": "I can't believe we forgot that Toph can't write."
     },
     {
         "id": 10,
-        "character": "iroh",
-        "quote": "Keeping a level head is a sign of a great leader."
+        "character": "aang",
+        "quote": "Yip Yip!"
     },
     {
         "id": 11,
         "character": "iroh",
-        "quote": "While it is great to believe in one self, a little help from others can be a great blessing."
+        "quote": "There is nothing wrong with letting people who love you help you. Not that I love you. I just met you."
     },
     {
         "id": 12,
         "character": "iroh",
-        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love."
+        "quote": "Keeping a level head is a sign of a great leader."
     },
     {
         "id": 13,
         "character": "iroh",
-        "quote": "Sometimes the best way to solve your own problems is to help someone else."
+        "quote": "While it is great to believe in one self, a little help from others can be a great blessing."
     },
     {
         "id": 14,
         "character": "iroh",
-        "quote": "Eugh! This tea is nothing more than hot leaf-juice!"
+        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love."
     },
     {
         "id": 15,
         "character": "iroh",
-        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons."
+        "quote": "Sometimes the best way to solve your own problems is to help someone else."
     },
     {
         "id": 16,
         "character": "iroh",
-        "quote": "Follow your passion (Zuko), and life will reward you."
+        "quote": "Eugh! This tea is nothing more than hot leaf-juice!"
     },
     {
         "id": 17,
         "character": "iroh",
-        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame."
+        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons."
     },
     {
         "id": 18,
         "character": "iroh",
-        "quote": "I believe people can change their mind if they want to. I believe in second chances."
+        "quote": "Follow your passion (Zuko), and life will reward you."
     },
     {
         "id": 19,
         "character": "iroh",
-        "quote": "Life happens wherever you are, whether you make it or not."
+        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame."
     },
     {
         "id": 20,
         "character": "iroh",
-        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?"
+        "quote": "I believe people can change their mind if they want to. I believe in second chances."
     },
     {
         "id": 21,
         "character": "iroh",
-        "quote": "Be careful what you wish for, Admiral. History is not always kind to its subjects."
+        "quote": "Life happens wherever you are, whether you make it or not."
     },
     {
         "id": 22,
         "character": "iroh",
-        "quote": "Are you so busy fighting you cannot see your own ship has set sail?"
+        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?"
     },
     {
         "id": 23,
         "character": "iroh",
-        "quote": "It is important to draw wisdom from different places. If you take it from only one place it becomes rigid and stale."
+        "quote": "Be careful what you wish for, Admiral. History is not always kind to its subjects."
     },
     {
         "id": 24,
         "character": "iroh",
-        "quote": "Sometimes life is like this dark tunnel, you can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place."
+        "quote": "Are you so busy fighting you cannot see your own ship has set sail?"
     },
     {
         "id": 25,
         "character": "iroh",
-        "quote": "It is usually best to admit mistakes when they occur, than to seek to restore honor."
+        "quote": "It is important to draw wisdom from different places. If you take it from only one place it becomes rigid and stale."
     },
     {
         "id": 26,
         "character": "iroh",
-        "quote": "I know you're not supposed to cry over spilled tea, but it's just so sad!"
+        "quote": "Sometimes life is like this dark tunnel, you can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place."
     },
     {
         "id": 27,
         "character": "iroh",
-        "quote": "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking! That, or it's the white jade bush, which is poisonous."
+        "quote": "It is usually best to admit mistakes when they occur, than to seek to restore honor."
     },
     {
         "id": 28,
         "character": "iroh",
-        "quote": "Failure is the only opportunity to begin again."
+        "quote": "I know you're not supposed to cry over spilled tea, but it's just so sad!"
     },
     {
         "id": 29,
         "character": "iroh",
-        "quote": "Sometimes, the best way to solve your own problems is to help someone else."
+        "quote": "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking! That, or it's the white jade bush, which is poisonous."
     },
     {
         "id": 30,
         "character": "iroh",
-        "quote": "Good times become good memories, but bad times make good lessons."
+        "quote": "Failure is the only opportunity to begin again."
     },
     {
         "id": 31,
         "character": "iroh",
-        "quote": "In the darkest times, Hope is something that you give yourself. That is the meaning of inner strength."
+        "quote": "Sometimes, the best way to solve your own problems is to help someone else."
     },
     {
         "id": 32,
-        "character": "katara",
-        "quote": "The strength of your heart makes you who you are."
+        "character": "iroh",
+        "quote": "Good times become good memories, but bad times make good lessons."
     },
     {
         "id": 33,
-        "character": "katara",
-        "quote": "There's always a right way to do things."
+        "character": "iroh",
+        "quote": "In the darkest times, Hope is something that you give yourself. That is the meaning of inner strength."
     },
     {
         "id": 34,
         "character": "katara",
-        "quote": "Love is brightest in the dark."
+        "quote": "The strength of your heart makes you who you are."
     },
     {
         "id": 35,
+        "character": "katara",
+        "quote": "There's always a right way to do things."
+    },
+    {
+        "id": 36,
+        "character": "katara",
+        "quote": "Love is brightest in the dark."
+    },
+    {
+        "id": 37,
+        "character": "katara",
+        "quote": "Is it just me, or is this guy's crown a little crooked?"
+    },
+    {
+        "id": 38,
         "character": "sokka",
         "quote": "You're going to fail a lot before things work out."
     },
     {
-        "id": 36,
+        "id": 39,
+        "character": "sokka",
+        "quote": "You know what I love about Appa  most? His sense of humour."
+    },
+    {
+        "id": 40,
+        "character": "sokka",
+        "quote": "My girlfriend turned into the moon."
+    },
+    {
+        "id": 41,
+        "character": "sokka",
+        "quote": "Cactus juice - it'll quench ya! IT'S THE QUENCHIEST!"
+    },
+    {
+        "id": 42,
+        "character": "sokka",
+        "quote": "It looks like Long Feng is long gone."
+    },
+    {
+        "id": 43,
+        "character": "sokka",
+        "quote": "Boomerang, you do always come back!"
+    },
+    {
+        "id": 44,
+        "character": "sokka",
+        "quote": "Goodbye, space sword :("
+    },
+    {
+        "id": 45,
+        "character": "sokka",
+        "quote": "No potty breaks!"
+    },
+    {
+        "id": 46,
+        "character": "sokka",
+        "quote": "JUST BEND THE SLURRY, WOMAN!"
+    },
+    {
+        "id": 47,
+        "character": "sokka",
+        "quote": "Oh no! I knew it was only a matter of time! APPA ATE MOMO!"
+    },
+    {
+        "id": 48,
         "character": "zuko",
         "quote": "You Must look within yourself to find yourself, only then will your true self reveal itself."
     },
     {
-        "id": 37,
+        "id": 49,
         "character": "zuko",
         "quote": "Destiny is a funny thing. You never know how things are going to work out, but if you keep an open mind and an open heart, I promise you will find your own destiny someday."
     },
     {
-        "id": 38,
+        "id": 50,
         "character": "zuko",
         "quote": "Being on your own isn't always your best path."
+    },
+    {
+        "id": 51,
+        "character": "zuko",
+        "quote": "That's rough buddy."
+    },
+    {
+        "id": 52,
+        "character": "bumi",
+        "quote": "Pants are an illusion and so is death."
+    },
+    {
+        "id": 53,
+        "character": "bumi",
+        "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities."
+    },
+    {
+        "id": 54,
+        "character": "bumi",
+        "quote": "I didn't know what or when, but I knew I'd know it when I knew it!"
+    },
+    {
+        "id": 55,
+        "character": "bumi",
+        "quote": "Lettuce leave?"
+    },
+    {
+        "id": 56,
+        "character": "bumi",
+        "quote": "The newly refurbished one. Of course we've been calling it the New Chamber, but we really should number them. Take them to the refurbished chamber that was once bad."
+    },
+    {
+        "id": 57,
+        "character": "bumi",
+        "quote": "Wait, someone's missing from your group, someone very important... WHERE'S MOMO?"
+    },
+    {
+        "id": 58,
+        "character": "bumi",
+        "quote": "There's also neutral jing, where you do nothing!"
+    },
+    {
+        "id": 59,
+        "character": "bumi",
+        "quote": "There are no taksies baksies in my kingdom."
+    },
+    {
+        "id": 60,
+        "character": "bumi",
+        "quote": "Kangaroo Island, eh? I heard that place was really hopping."
+    },
+    {
+        "id": 61,
+        "character": "bumi",
+        "quote": "Bumi, you're a mad genius."
     }
 ]
