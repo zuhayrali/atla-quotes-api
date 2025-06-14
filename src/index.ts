@@ -17,6 +17,53 @@ app.use('/*', async (c, next) => {
   return auth(c,next)
 })
 
+app.get('/', (c) => {
+  const counts: Record<string, number> = {};
+  for (const quote of quotes) {
+    counts[quote.character] = (counts[quote.character] ?? 0) + 1;
+  }
+
+  let HTML = `<!doctype html>
+      <head>
+        <style>
+          html {
+            background-color: beige;
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+          } 
+        </style>
+      </head>
+      <h2>Avatar: The Last Airbender Quotes API</h1>
+      <h2><a href="https://github.com/zuhayrali/atla-quotes-api" target="_blank" rel="noopener noreferrer">Source Code (GitHub redirect)</a></h2>
+      <h3>Current Quotes per Character</h2>
+      <ul>
+  `
+
+  Object.entries(counts).forEach((character) => { 
+    HTML += (`<li>${character[0]}: ${character[1]}</li>`);
+  })
+
+  HTML += "</ul>"
+  
+  HTML += `
+  <h3>TODO</h3>
+  <ul>
+    <li>[  ] OpenAPI / Swagger docs </li>
+    <li>[  ] Add 10 quotes per character </li>
+    <li>[  ] Add 3 1-bit images per character </li>
+    <li>[  ] Add image url to quote response </li>
+    <li>[  ] Add Season/Episode (Book/Chapter) for each quote </li>
+  </ul>
+  <footer style="position: fixed; bottom: 0; font-size: 0.8rem">
+    disclaimer: this page is ugly by design
+    <a href="https://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">:)</a>
+  </footer>
+  `
+  return c.html(
+    HTML
+  )})
+
 app.get('/auth/page', (c) => {
   return c.text('You are authorized')
 })
