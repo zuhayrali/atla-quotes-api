@@ -61,7 +61,7 @@ app.get('/', (c) => {
     <li>[  ] OpenAPI / Swagger docs </li>
     <li>[  ] Add 10 quotes per character </li>
     <li>[ x ] Add 3 1-bit images per character </li>
-    <li>[  ] Add image url to quote response </li>
+    <li>[ x ] Add image url to quote response </li>
     <li>[  ] Add Season/Episode (Book/Chapter) for each quote </li>
     <li>[  ] Add Legend of Korra support?</li>
     <li>[  ] Comission artwork</li>
