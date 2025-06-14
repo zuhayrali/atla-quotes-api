@@ -88,10 +88,8 @@ app.get('/quotes/:id', async (c) => {
   if(id > quotes.length || id <= 0) { 
     return c.text(`Quote ${id} does not exist :)`, 400);
   }
-  const quote = quotes.find(quote => quote.id === id);
-  if(!quote) { 
-    return c.text(`Quote ${id} does not exist :)`, 400);
-  }
+  
+  const quote = quotes[id-1];
   const characterImg = getCharacterImageUrl(quote.character, c)
 
   return c.json({
