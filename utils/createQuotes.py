@@ -28,7 +28,7 @@ for filename in os.listdir(folder_path):
                 n_quote+=1
 
 # Define the path for the output JSON file
-json_file_path = 'quotes.json'
+json_file_path = 'quotes/quotes.json'
 
 # Write the list of quotes to a JSON file
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
