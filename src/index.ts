@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import { basicAuth } from 'hono/basic-auth';
-import quotes from '../quotes/quotes.json'
+import quotes from '../quotes/quotes.json';
+import { getCharacterImageUrl } from './helpers';
 
 type Bindings = {
   USERNAME: string,
@@ -84,11 +85,19 @@ app.get('/quotes', (c) => {
 
 app.get('/quotes/:id', async (c) => { 
   const id = parseInt(c.req.param('id'));
-  if(id > quotes.length || id < 1 || !id) { 
+  if(id > quotes.length || id <= 0) { 
     return c.text(`Quote ${id} does not exist :)`, 400);
   }
   const quote = quotes.find(quote => quote.id === id);
-  return c.json(quote)
+  if(!quote) { 
+    return c.text(`Quote ${id} does not exist :)`, 400);
+  }
+  const characterImg = getCharacterImageUrl(quote.character, c)
+
+  return c.json({
+    ...quote, characterImg
+  });
+
 })
 
 app.get('/random-quote', (c) => {
@@ -97,7 +106,12 @@ app.get('/random-quote', (c) => {
     return c.redirect(`/random-character-quote?character=${character}`, 301);
   }
   const randomIndex = Math.floor(Math.random() * quotes.length);
-  return c.json(quotes[randomIndex]); 
+  const characterImg = getCharacterImageUrl(quotes[randomIndex].character, c)
+  
+  return c.json({
+    ...quotes[randomIndex], characterImg
+  }); 
+  
 });
 
 app.get('/random-character-quote', (c) => {
@@ -113,7 +127,12 @@ app.get('/random-character-quote', (c) => {
   }
   
   const randomIndex = Math.floor(Math.random() * characterQuotes.length);
-  return c.json(characterQuotes[randomIndex]); 
+  const characterImg = getCharacterImageUrl(characterQuotes[randomIndex].character, c)
+
+  return c.json({
+    ...characterQuotes[randomIndex], characterImg
+  });
+
 });
 
 app.get('/quotes-by-character', async (c) => { 
