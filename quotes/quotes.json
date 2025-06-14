@@ -1,152 +1,192 @@
 [
     {
         "id": 1,
-        "character": "iroh",
-        "quote": "There is nothing wrong with letting people who love you help you."
-    },
-    {
-        "id": 2,
-        "character": "iroh",
-        "quote": "Keeping a level head is a sign of a great leader."
-    },
-    {
-        "id": 3,
-        "character": "iroh",
-        "quote": "There is nothing wrong with letting people who love you help you."
-    },
-    {
-        "id": 4,
-        "character": "iroh",
-        "quote": "It is important to draw wisdom from many different places. If you take it from only one place, it becomes rigid and stale. Understanding others... will help you become whole."
-    },
-    {
-        "id": 5,
-        "character": "iroh",
-        "quote": "While it is great to believe in one self, a little help from others can be a great blessing."
-    },
-    {
-        "id": 6,
-        "character": "iroh",
-        "quote": "Sometimes life is like this dark tunnel. You can't see the light at the end, but if you just keep moving, you will come to a better place."
-    },
-    {
-        "id": 7,
-        "character": "iroh",
-        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love."
-    },
-    {
-        "id": 8,
-        "character": "iroh",
-        "quote": "Sometimes the best way to solve your own problems is to help someone else."
-    },
-    {
-        "id": 9,
-        "character": "iroh",
-        "quote": "Eugh! This tea is nothing more than hot leaf-juice!"
-    },
-    {
-        "id": 10,
-        "character": "iroh",
-        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons."
-    },
-    {
-        "id": 11,
-        "character": "iroh",
-        "quote": "Follow your passion (Zuko), and life will reward you."
-    },
-    {
-        "id": 12,
-        "character": "iroh",
-        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame."
-    },
-    {
-        "id": 13,
-        "character": "iroh",
-        "quote": "I believe people can change their mind if they want to. I believe in second chances."
-    },
-    {
-        "id": 14,
-        "character": "iroh",
-        "quote": "Life happens wherever you are, whether you make it or not."
-    },
-    {
-        "id": 15,
-        "character": "iroh",
-        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?"
-    },
-    {
-        "id": 16,
         "character": "aang",
         "quote": "Harsh words can't solve problems; action will."
     },
     {
-        "id": 17,
+        "id": 2,
         "character": "aang",
         "quote": "The monks used to say that revenge is like a two-headed rat viper. While you watch your enemy go down, you're being poisoned yourself."
     },
     {
-        "id": 18,
+        "id": 3,
         "character": "aang",
         "quote": "The true mind can weather all the lies and illusions without being lost. The true heart can tough the poison of hatred without being harmed. Since beginning-less time, darkness thrives in the void, but always yields to purifying light."
     },
     {
-        "id": 19,
+        "id": 4,
         "character": "aang",
         "quote": "It's easy to do nothing, but it's hard to forgive."
     },
     {
-        "id": 20,
-        "character": "katara",
-        "quote": "The strength of your heart makes you who you are."
-    },
-    {
-        "id": 21,
-        "character": "katara",
-        "quote": "There's always a right way to do things."
-    },
-    {
-        "id": 22,
-        "character": "katara",
-        "quote": "Love is brightest in the dark."
-    },
-    {
-        "id": 23,
+        "id": 5,
         "character": "bumi",
         "quote": "Pants are an illusion and so is death."
     },
     {
-        "id": 24,
+        "id": 6,
         "character": "bumi",
         "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities."
     },
     {
-        "id": 25,
+        "id": 7,
         "character": "bumi",
         "quote": "I didn't know what or when, but I knew I'd know it when I knew it!"
     },
     {
-        "id": 26,
+        "id": 8,
         "character": "bumi",
         "quote": "Lettuce leave?"
     },
     {
+        "id": 9,
+        "character": "iroh",
+        "quote": "There is nothing wrong with letting people who love you help you. Not that I love you. I just met you."
+    },
+    {
+        "id": 10,
+        "character": "iroh",
+        "quote": "Keeping a level head is a sign of a great leader."
+    },
+    {
+        "id": 11,
+        "character": "iroh",
+        "quote": "While it is great to believe in one self, a little help from others can be a great blessing."
+    },
+    {
+        "id": 12,
+        "character": "iroh",
+        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love."
+    },
+    {
+        "id": 13,
+        "character": "iroh",
+        "quote": "Sometimes the best way to solve your own problems is to help someone else."
+    },
+    {
+        "id": 14,
+        "character": "iroh",
+        "quote": "Eugh! This tea is nothing more than hot leaf-juice!"
+    },
+    {
+        "id": 15,
+        "character": "iroh",
+        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons."
+    },
+    {
+        "id": 16,
+        "character": "iroh",
+        "quote": "Follow your passion (Zuko), and life will reward you."
+    },
+    {
+        "id": 17,
+        "character": "iroh",
+        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame."
+    },
+    {
+        "id": 18,
+        "character": "iroh",
+        "quote": "I believe people can change their mind if they want to. I believe in second chances."
+    },
+    {
+        "id": 19,
+        "character": "iroh",
+        "quote": "Life happens wherever you are, whether you make it or not."
+    },
+    {
+        "id": 20,
+        "character": "iroh",
+        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?"
+    },
+    {
+        "id": 21,
+        "character": "iroh",
+        "quote": "Be careful what you wish for, Admiral. History is not always kind to its subjects."
+    },
+    {
+        "id": 22,
+        "character": "iroh",
+        "quote": "Are you so busy fighting you cannot see your own ship has set sail?"
+    },
+    {
+        "id": 23,
+        "character": "iroh",
+        "quote": "It is important to draw wisdom from different places. If you take it from only one place it becomes rigid and stale."
+    },
+    {
+        "id": 24,
+        "character": "iroh",
+        "quote": "Sometimes life is like this dark tunnel, you can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place."
+    },
+    {
+        "id": 25,
+        "character": "iroh",
+        "quote": "It is usually best to admit mistakes when they occur, and to seek to restore honor."
+    },
+    {
+        "id": 26,
+        "character": "iroh",
+        "quote": "I know you're not supposed to cry over spilled tea, but it's just so sad!"
+    },
+    {
         "id": 27,
-        "character": "zuko",
-        "quote": "You must look within yourself to find yourself, only then will your true self reveal itself."
+        "character": "iroh",
+        "quote": "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking! That, or it's the white jade bush, which is poisonous."
     },
     {
         "id": 28,
+        "character": "iroh",
+        "quote": "Failure is the only opportunity to begin again."
+    },
+    {
+        "id": 29,
+        "character": "iroh",
+        "quote": "Sometimes, the best way to solve your own problems is to help someone else."
+    },
+    {
+        "id": 30,
+        "character": "iroh",
+        "quote": "Good times become good memories, but bad times make good lessons."
+    },
+    {
+        "id": 31,
+        "character": "iroh",
+        "quote": "In the darkest times, Hope is something that you give yourself. That is the meaning of inner strength."
+    },
+    {
+        "id": 32,
+        "character": "katara",
+        "quote": "The strength of your heart makes you who you are."
+    },
+    {
+        "id": 33,
+        "character": "katara",
+        "quote": "There's always a right way to do things."
+    },
+    {
+        "id": 34,
+        "character": "katara",
+        "quote": "Love is brightest in the dark."
+    },
+    {
+        "id": 35,
+        "character": "sokka",
+        "quote": "You're going to fail a lot before things work out."
+    },
+    {
+        "id": 36,
+        "character": "zuko",
+        "quote": "You Must look within yourself to find yourself, only then will your true self reveal itself."
+    },
+    {
+        "id": 37,
         "character": "zuko",
         "quote": "Destiny is a funny thing. You never know how things are going to work out, but if you keep an open mind and an open heart, I promise you will find your own destiny someday."
     },
     {
-        "id": 29,
+        "id": 38,
         "character": "zuko",
         "quote": "Being on your own isn't always your best path."
-    },
-    {
-        "id": 30,
-        "character": "sokka",
-        "quote": "You're going to fail a lot before things work out."
     }
 ]
