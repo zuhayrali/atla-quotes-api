@@ -186,121 +186,181 @@
     },
     {
         "id": 38,
-        "character": "sokka",
-        "quote": "You're going to fail a lot before things work out."
+        "character": "katara",
+        "quote": "The stars look beautiful tonight... too bad you can't see them Toph!"
     },
     {
         "id": 39,
-        "character": "sokka",
-        "quote": "You know what I love about Appa  most? His sense of humour."
+        "character": "katara",
+        "quote": "My heart is so full of hope, that it's making me tearbend!"
     },
     {
         "id": 40,
-        "character": "sokka",
-        "quote": "My girlfriend turned into the moon."
+        "character": "katara",
+        "quote": "I'M COMPLETELY CALM"
     },
     {
         "id": 41,
-        "character": "sokka",
-        "quote": "Cactus juice - it'll quench ya! IT'S THE QUENCHIEST!"
+        "character": "katara",
+        "quote": "I will never, ever turn my back on people who need me!"
     },
     {
         "id": 42,
-        "character": "sokka",
-        "quote": "It looks like Long Feng is long gone."
+        "character": "katara",
+        "quote": "You make one step backward, one slip up, and you won't have to worry about your destiny anymore."
     },
     {
         "id": 43,
-        "character": "sokka",
-        "quote": "Boomerang, you do always come back!"
+        "character": "katara",
+        "quote": "Of course we could've gotten some sleep earlier if TOPH didn't have such ISSUES!"
     },
     {
         "id": 44,
         "character": "sokka",
-        "quote": "Goodbye, space sword :("
+        "quote": "You're going to fail a lot before things work out."
     },
     {
         "id": 45,
         "character": "sokka",
-        "quote": "No potty breaks!"
+        "quote": "You know what I love about Appa  most? His sense of humour."
     },
     {
         "id": 46,
         "character": "sokka",
-        "quote": "JUST BEND THE SLURRY, WOMAN!"
+        "quote": "My girlfriend turned into the moon."
     },
     {
         "id": 47,
         "character": "sokka",
-        "quote": "Oh no! I knew it was only a matter of time! APPA ATE MOMO!"
+        "quote": "Cactus juice - it'll quench ya! IT'S THE QUENCHIEST!"
     },
     {
         "id": 48,
+        "character": "sokka",
+        "quote": "It looks like Long Feng is long gone."
+    },
+    {
+        "id": 49,
+        "character": "sokka",
+        "quote": "Boomerang, you do always come back!"
+    },
+    {
+        "id": 50,
+        "character": "sokka",
+        "quote": "Goodbye, space sword :("
+    },
+    {
+        "id": 51,
+        "character": "sokka",
+        "quote": "No potty breaks!"
+    },
+    {
+        "id": 52,
+        "character": "sokka",
+        "quote": "JUST BEND THE SLURRY, WOMAN!"
+    },
+    {
+        "id": 53,
+        "character": "sokka",
+        "quote": "Oh no! I knew it was only a matter of time! APPA ATE MOMO!"
+    },
+    {
+        "id": 54,
         "character": "zuko",
         "quote": "You Must look within yourself to find yourself, only then will your true self reveal itself."
     },
     {
-        "id": 49,
+        "id": 55,
         "character": "zuko",
         "quote": "Destiny is a funny thing. You never know how things are going to work out, but if you keep an open mind and an open heart, I promise you will find your own destiny someday."
     },
     {
-        "id": 50,
+        "id": 56,
         "character": "zuko",
         "quote": "Being on your own isn't always your best path."
     },
     {
-        "id": 51,
+        "id": 57,
         "character": "zuko",
         "quote": "That's rough buddy."
     },
     {
-        "id": 52,
+        "id": 58,
+        "character": "zuko",
+        "quote": "I don't need luck, though. I don't want it. I've had to struggle and fight and that's made me strong. It's made me who I am."
+    },
+    {
+        "id": 59,
+        "character": "zuko",
+        "quote": "Hello. Zuko here."
+    },
+    {
+        "id": 60,
+        "character": "zuko",
+        "quote": "Why am I so bad at being good?"
+    },
+    {
+        "id": 61,
+        "character": "zuko",
+        "quote": "Did jet just... die?"
+    },
+    {
+        "id": 62,
+        "character": "zuko",
+        "quote": "The scar is not on the wrong side!"
+    },
+    {
+        "id": 63,
+        "character": "zuko",
+        "quote": "No lightning today? What's the matter? Afraid I'll redirect it?"
+    },
+    {
+        "id": 64,
         "character": "bumi",
         "quote": "Pants are an illusion and so is death."
     },
     {
-        "id": 53,
+        "id": 65,
         "character": "bumi",
         "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities."
     },
     {
-        "id": 54,
+        "id": 66,
         "character": "bumi",
         "quote": "I didn't know what or when, but I knew I'd know it when I knew it!"
     },
     {
-        "id": 55,
+        "id": 67,
         "character": "bumi",
         "quote": "Lettuce leave?"
     },
     {
-        "id": 56,
+        "id": 68,
         "character": "bumi",
         "quote": "The newly refurbished one. Of course we've been calling it the New Chamber, but we really should number them. Take them to the refurbished chamber that was once bad."
     },
     {
-        "id": 57,
+        "id": 69,
         "character": "bumi",
         "quote": "Wait, someone's missing from your group, someone very important... WHERE'S MOMO?"
     },
     {
-        "id": 58,
+        "id": 70,
         "character": "bumi",
         "quote": "There's also neutral jing, where you do nothing!"
     },
     {
-        "id": 59,
+        "id": 71,
         "character": "bumi",
         "quote": "There are no taksies baksies in my kingdom."
     },
     {
-        "id": 60,
+        "id": 72,
         "character": "bumi",
         "quote": "Kangaroo Island, eh? I heard that place was really hopping."
     },
     {
-        "id": 61,
+        "id": 73,
         "character": "bumi",
         "quote": "Bumi, you're a mad genius."
     }
