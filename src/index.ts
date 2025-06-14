@@ -32,11 +32,18 @@ app.get('/', (c) => {
             justify-content: center;
             margin-top: 1em;
           } 
+          a { 
+            text-decoration: none;
+          }
+          a:hover { 
+            text-decoration: underline;
+          }
         </style>
       </head>
-      <h2>Avatar: The Last Airbender Quotes API</h1>
-      <h2><a href="https://github.com/zuhayrali/atla-quotes-api" target="_blank" rel="noopener noreferrer">Source Code (GitHub redirect)</a></h2>
-      <h3>Current Quotes per Character</h2>
+      <h2>Avatar: The Last Airbender Quotes API</h2>
+      <h2><a href="https://github.com/zuhayrali/atla-quotes-api" target="_blank" rel="noopener noreferrer">Source Code (GitHub)</a></h2>
+      <p>Developed for plugin development on <a href="https://usetrmnl.com/" target="_blank" rel="noopener noreferrer">trmnl</a>.<p>
+      <h3>Current Quotes per Character</h3>
       <ul>
   `
 
@@ -54,10 +61,12 @@ app.get('/', (c) => {
     <li>[  ] Add 3 1-bit images per character </li>
     <li>[  ] Add image url to quote response </li>
     <li>[  ] Add Season/Episode (Book/Chapter) for each quote </li>
+    <li>[  ] Add Legend of Korra support?</li>
+    <li>[  ] Comission artwork</li>
   </ul>
   <footer style="position: fixed; bottom: 0; font-size: 0.8rem">
-    disclaimer: this page is ugly by design
-    <a href="https://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">:)</a>
+    note to self: 
+    <a href="https://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">do not make this look pretty :)</a>
   </footer>
   `
   return c.html(
