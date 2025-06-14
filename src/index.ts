@@ -27,7 +27,7 @@ app.get('/quotes', (c) => {
 
 app.get('/quote-by-id/:id', async (c) => { 
   const id = parseInt(c.req.param('id'));
-  if(id > quotes.length) { 
+  if(id > quotes.length || id < 1 || !id) { 
     return c.text(`Quote ${id} does not exist :)`, 400);
   }
   const quote = quotes.find(quote => quote.id === id);
@@ -35,12 +35,20 @@ app.get('/quote-by-id/:id', async (c) => {
 })
 
 app.get('/random-quote', (c) => {
+  const character = c.req.query('character');
+  if(character) { 
+    return c.redirect(`/random-character-quote?character=${character}`, 301);
+  }
   const randomIndex = Math.floor(Math.random() * quotes.length);
   return c.json(quotes[randomIndex]); 
 });
 
-app.get('/random-character-quote/:character', (c) => {
-  const character = c.req.param('character');
+app.get('/random-character-quote', (c) => {
+  const character = c.req.query('character');
+  if(!character) { 
+    return c.text('No character provided.', 400)
+  }
+
   const characterQuotes = quotes.filter(quotes => quotes["character"] == character);
   
   if(characterQuotes.length == 0) { 
@@ -51,8 +59,11 @@ app.get('/random-character-quote/:character', (c) => {
   return c.json(characterQuotes[randomIndex]); 
 });
 
-app.get('/quotes-by-character/:character', async (c) => { 
-  const character = c.req.param('character');
+app.get('/quotes-by-character', async (c) => { 
+  const character = c.req.query('character');
+  if(!character) { 
+    return c.text('No character provided.', 400)
+  }
   const characterQuotes = quotes.filter(quotes => quotes["character"] == character);
   
   if(characterQuotes.length == 0) { 
