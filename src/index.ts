@@ -57,6 +57,7 @@ app.get('/', (c) => {
   HTML += "</ul>"
   
   HTML += `
+  <h4>Total quotes: ${quotes.length}</h4>
   <h3>TODO</h3>
   <ul>
     <li>[ x ] OpenAPI / Swagger docs </li>
