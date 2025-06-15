@@ -5,6 +5,6 @@ import { Context } from "hono";
  */
 export const getCharacterImageUrl = (character: string, c: Context): string => {
     const safeCharacterName = character.replace(/\s+/g, '_').toLowerCase();
-    const index = Math.floor(Math.random() * 3);
+    const index = Math.floor(Math.random() * 2);
     return `${new URL(c.req.url).origin}/images/${character}/${character}_${index}.png`;
 };
