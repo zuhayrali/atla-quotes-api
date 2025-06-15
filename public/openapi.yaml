@@ -37,6 +37,12 @@ components:
         quote:
           type: string
           example: Sharing tea with a fascinating stranger is one of life's true delights.
+        season:
+          type: integer
+          example: 3
+        episode:
+          type: integer
+          example: 14
         characterImg:
           type: string
           format: uri
