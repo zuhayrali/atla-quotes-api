@@ -2,356 +2,498 @@
     {
         "id": 1,
         "character": "aang",
-        "quote": "Harsh words won't solve problems. Action will."
+        "quote": "Harsh words won't solve problems. Action will.",
+        "season": 1,
+        "episode": 11
     },
     {
         "id": 2,
         "character": "aang",
-        "quote": "The monks used to say that revenge is like a two-headed rat viper. While you watch your enemy go down, you're being poisoned yourself."
+        "quote": "The monks used to say that revenge is like a two-headed rat viper. While you watch your enemy go down, you're being poisoned yourself.",
+        "season": 3,
+        "episode": 16
     },
     {
         "id": 3,
         "character": "aang",
-        "quote": "The true mind can weather all the lies and illusions without being lost. The true heart can tough the poison of hatred without being harmed. Since beginning-less time, darkness thrives in the void, but always yields to purifying light."
+        "quote": "The true mind can weather all the lies and illusions without being lost. The true heart can tough the poison of hatred without being harmed. Since beginning-less time, darkness thrives in the void, but always yields to purifying light.",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 4,
         "character": "aang",
-        "quote": "It's easy to do nothing, but it's hard to forgive."
+        "quote": "It's easy to do nothing, but it's hard to forgive.",
+        "season": 3,
+        "episode": 16
     },
     {
         "id": 5,
         "character": "aang",
-        "quote": "No Firelord Ozai. You're not wearing pants"
+        "quote": "No Firelord Ozai. You're not wearing pants",
+        "season": 3,
+        "episode": 9
     },
     {
         "id": 6,
         "character": "aang",
-        "quote": "I would rather kiss you than die! That's a compliment!"
+        "quote": "I would rather kiss you than die! That's a compliment!",
+        "season": 2,
+        "episode": 2
     },
     {
         "id": 7,
         "character": "aang",
-        "quote": "Baby, you are my forever girl"
+        "quote": "Baby, you are my forever girl",
+        "season": 3,
+        "episode": 9
     },
     {
         "id": 8,
         "character": "aang",
-        "quote": "Will you go penguin sledding with me?"
+        "quote": "Will you go penguin sledding with me?",
+        "season": 1,
+        "episode": 2
     },
     {
         "id": 9,
         "character": "aang",
-        "quote": "I can't believe we forgot that Toph can't write."
+        "quote": "I can't believe we forgot that Toph can't write.",
+        "season": 3,
+        "episode": 6
     },
     {
         "id": 10,
         "character": "aang",
-        "quote": "Yip Yip!"
+        "quote": "Yip Yip!",
+        "season": 1,
+        "episode": 3
     },
     {
         "id": 11,
         "character": "iroh",
-        "quote": "There is nothing wrong with letting people who love you help you. Not that I love you. I just met you."
+        "quote": "There is nothing wrong with letting people who love you help you. Not that I love you. I just met you.",
+        "season": 2,
+        "episode": 8
     },
     {
         "id": 12,
         "character": "iroh",
-        "quote": "While it is great to believe in one self, a little help from others can be a great blessing."
+        "quote": "While it is great to believe in one self, a little help from others can be a great blessing.",
+        "season": 2,
+        "episode": 15
     },
     {
         "id": 13,
         "character": "iroh",
-        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love."
+        "quote": "Power and perfection are overrated. I think you are wise to choose happiness and love.",
+        "season": 2,
+        "episode": 19
     },
     {
         "id": 14,
         "character": "iroh",
-        "quote": "Sometimes the best way to solve your own problems is to help someone else."
+        "quote": "Sometimes the best way to solve your own problems is to help someone else.",
+        "season": 1,
+        "episode": 6
     },
     {
         "id": 15,
         "character": "iroh",
-        "quote": "This tea is nothing more than hot leaf-juice!"
+        "quote": "This tea is nothing more than hot leaf-juice!",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 16,
         "character": "iroh",
-        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons."
+        "quote": "Protection and power are overrated. I think you are very wise to choose happiness and love. There are reasons each of us are born. we have to find those reasons.",
+        "season": 2,
+        "episode": 19
     },
     {
         "id": 17,
         "character": "iroh",
-        "quote": "Follow your passion (Zuko), and life will reward you."
+        "quote": "Follow your passion (Zuko), and life will reward you.",
+        "season": 2,
+        "episode": 19
     },
     {
         "id": 18,
         "character": "iroh",
-        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame."
+        "quote": "Pride is not the opposite of shame, but it's source. True humility is the only antidote to shame.",
+        "season": 2,
+        "episode": 9
     },
     {
         "id": 19,
         "character": "iroh",
-        "quote": "I believe people can change their mind if they want to. I believe in second chances."
+        "quote": "I believe people can change their mind if they want to. I believe in second chances.",
+        "season": 2,
+        "episode": 12
     },
     {
         "id": 20,
         "character": "iroh",
-        "quote": "Life happens wherever you are, whether you make it or not."
+        "quote": "Life happens wherever you are, whether you make it or not.",
+        "season": 2,
+        "episode": 14
     },
     {
         "id": 21,
         "character": "iroh",
-        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?"
+        "quote": "It's time for you to look inward and begin asking yourself the big questions: who are you, and what do you want?",
+        "season": 2,
+        "episode": 17
     },
     {
         "id": 22,
         "character": "iroh",
-        "quote": "Be careful what you wish for, Admiral. History is not always kind to its subjects."
+        "quote": "Be careful what you wish for, Admiral. History is not always kind to its subjects.",
+        "season": 1,
+        "episode": 19
     },
     {
         "id": 23,
         "character": "iroh",
-        "quote": "Are you so busy fighting you cannot see your own ship has set sail?"
+        "quote": "Are you so busy fighting you cannot see your own ship has set sail?",
+        "season": 1,
+        "episode": 9
     },
     {
         "id": 24,
         "character": "iroh",
-        "quote": "It is important to draw wisdom from different places. If you take it from only one place it becomes rigid and stale."
+        "quote": "It is important to draw wisdom from different places. If you take it from only one place it becomes rigid and stale.",
+        "season": 2,
+        "episode": 9
     },
     {
         "id": 25,
         "character": "iroh",
-        "quote": "Sometimes life is like this dark tunnel, you can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place."
+        "quote": "Sometimes life is like this dark tunnel, you can't always see the light at the end of the tunnel, but if you just keep moving, you will come to a better place.",
+        "season": 2,
+        "episode": 19
     },
     {
         "id": 26,
         "character": "iroh",
-        "quote": "It is usually best to admit mistakes when they occur, than to seek to restore honor."
+        "quote": "It is usually best to admit mistakes when they occur, than to seek to restore honor.",
+        "season": 2,
+        "episode": 15
     },
     {
         "id": 27,
         "character": "iroh",
-        "quote": "I know you're not supposed to cry over spilled tea, but it's just so sad!"
+        "quote": "I know you're not supposed to cry over spilled tea, but it's just so sad!",
+        "season": 2,
+        "episode": 12
     },
     {
         "id": 28,
         "character": "iroh",
-        "quote": "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking! That, or it's the white jade bush, which is poisonous."
+        "quote": "You're looking at the rare white dragon bush. Its leaves make a tea so delicious it's heartbreaking! That, or it's the white jade bush, which is poisonous.",
+        "season": 2,
+        "episode": 2
     },
     {
         "id": 29,
         "character": "iroh",
-        "quote": "Failure is the only opportunity to begin again."
+        "quote": "Failure is the only opportunity to begin again.",
+        "season": 2,
+        "episode": 1
     },
     {
         "id": 30,
         "character": "iroh",
-        "quote": "Sometimes, the best way to solve your own problems is to help someone else."
+        "quote": "Sometimes, the best way to solve your own problems is to help someone else.",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 31,
         "character": "iroh",
-        "quote": "In the darkest times, Hope is something that you give yourself. That is the meaning of inner strength."
+        "quote": "In the darkest times, Hope is something that you give yourself. That is the meaning of inner strength.",
+        "season": 2,
+        "episode": 5
     },
     {
         "id": 32,
         "character": "katara",
-        "quote": "The strength of your heart makes you who you are."
+        "quote": "The strength of your heart makes you who you are.",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 33,
         "character": "katara",
-        "quote": "There's always a right way to do things."
+        "quote": "There's always a right way to do things.",
+        "season": 2,
+        "episode": 1
     },
     {
         "id": 34,
         "character": "katara",
-        "quote": "Love is brightest in the dark."
+        "quote": "Love is brightest in the dark.",
+        "season": 2,
+        "episode": 2
     },
     {
         "id": 35,
         "character": "katara",
-        "quote": "Is it just me, or is this guy's crown a little crooked?"
+        "quote": "Is it just me, or is this guy's crown a little crooked?",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 36,
         "character": "katara",
-        "quote": "The stars look beautiful tonight... too bad you can't see them Toph!"
+        "quote": "The stars look beautiful tonight... too bad you can't see them Toph!",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 37,
         "character": "katara",
-        "quote": "My heart is so full of hope, that it's making me tearbend!"
+        "quote": "My heart is so full of hope, that it's making me tearbend!",
+        "season": 3,
+        "episode": 10
     },
     {
         "id": 38,
         "character": "katara",
-        "quote": "I'M COMPLETELY CALM"
+        "quote": "I'M COMPLETELY CALM",
+        "season": 3,
+        "episode": 5
     },
     {
         "id": 39,
         "character": "katara",
-        "quote": "I will never, ever turn my back on people who need me!"
+        "quote": "I will never, ever turn my back on people who need me!",
+        "season": 3,
+        "episode": 3
     },
     {
         "id": 40,
         "character": "katara",
-        "quote": "You make one step backward, one slip up, and you won't have to worry about your destiny anymore."
+        "quote": "You make one step backward, one slip up, and you won't have to worry about your destiny anymore.",
+        "season": 3,
+        "episode": 12
     },
     {
         "id": 41,
         "character": "katara",
-        "quote": "Of course we could've gotten some sleep earlier if TOPH didn't have such ISSUES!"
+        "quote": "Of course we could've gotten some sleep earlier if TOPH didn't have such ISSUES!",
+        "season": 2,
+        "episode": 8
     },
     {
         "id": 42,
         "character": "sokka",
-        "quote": "You're going to fail a lot before things work out."
+        "quote": "You're going to fail a lot before things work out.",
+        "season": 3,
+        "episode": 12
     },
     {
         "id": 43,
         "character": "sokka",
-        "quote": "You know what I love about Appa  most? His sense of humour."
+        "quote": "You know what I love about Appa  most? His sense of humour.",
+        "season": 1,
+        "episode": 13
     },
     {
         "id": 44,
         "character": "sokka",
-        "quote": "My girlfriend turned into the moon."
+        "quote": "My girlfriend turned into the moon.",
+        "season": 3,
+        "episode": 14
     },
     {
         "id": 45,
         "character": "sokka",
-        "quote": "Cactus juice - it'll quench ya! IT'S THE QUENCHIEST!"
+        "quote": "Cactus juice - it'll quench ya! IT'S THE QUENCHIEST!",
+        "season": 2,
+        "episode": 11
     },
     {
         "id": 46,
         "character": "sokka",
-        "quote": "It looks like Long Feng is long gone."
+        "quote": "It looks like Long Feng is long gone.",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 47,
         "character": "sokka",
-        "quote": "Boomerang, you do always come back!"
+        "quote": "Boomerang, you do always come back!",
+        "season": 2,
+        "episode": 5
     },
     {
         "id": 48,
         "character": "sokka",
-        "quote": "Bye, space sword. :("
+        "quote": "Bye, space sword. :(",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 49,
         "character": "sokka",
-        "quote": "No potty breaks!"
+        "quote": "No potty breaks!",
+        "season": 1,
+        "episode": 2
     },
     {
         "id": 50,
         "character": "sokka",
-        "quote": "JUST BEND THE SLURRY, WOMAN!"
+        "quote": "JUST BEND THE SLURRY, WOMAN!",
+        "season": 2,
+        "episode": 12
     },
     {
         "id": 51,
         "character": "sokka",
-        "quote": "Oh no! I knew it was only a matter of time! APPA ATE MOMO!"
+        "quote": "Oh no! I knew it was only a matter of time! APPA ATE MOMO!",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 52,
         "character": "zuko",
-        "quote": "You must look within yourself to find yourself, only then will your true self reveal itself."
+        "quote": "You must look within yourself to find yourself, only then will your true self reveal itself.",
+        "season": 3,
+        "episode": 12
     },
     {
         "id": 53,
         "character": "zuko",
-        "quote": "Destiny is a funny thing. You never know how things are going to work out, but if you keep an open mind and an open heart, I promise you will find your own destiny someday."
+        "quote": "Destiny is a funny thing. You never know how things are going to work out, but if you keep an open mind and an open heart, I promise you will find your own destiny someday.",
+        "season": 3,
+        "episode": 12
     },
     {
         "id": 54,
         "character": "zuko",
-        "quote": "Being on your own isn't always your best path."
+        "quote": "Being on your own isn't always your best path.",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 55,
         "character": "zuko",
-        "quote": "That's rough buddy."
+        "quote": "That's rough buddy.",
+        "season": 3,
+        "episode": 14
     },
     {
         "id": 56,
         "character": "zuko",
-        "quote": "I don't need luck, though. I don't want it. I've had to struggle and fight and that's made me strong. It's made me who I am."
+        "quote": "I don't need luck, though. I don't want it. I've had to struggle and fight and that's made me strong. It's made me who I am.",
+        "season": 2,
+        "episode": 7
     },
     {
         "id": 57,
         "character": "zuko",
-        "quote": "Hello. Zuko here."
+        "quote": "Hello. Zuko here.",
+        "season": 3,
+        "episode": 13
     },
     {
         "id": 58,
         "character": "zuko",
-        "quote": "Why am I so bad at being good?"
+        "quote": "Why am I so bad at being good?",
+        "season": 3,
+        "episode": 12
     },
     {
         "id": 59,
         "character": "zuko",
-        "quote": "Did jet just... die?"
+        "quote": "Did jet just... die?",
+        "season": 3,
+        "episode": 17
     },
     {
         "id": 60,
         "character": "zuko",
-        "quote": "The scar is not on the wrong side!"
+        "quote": "The scar is not on the wrong side!",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 61,
         "character": "zuko",
-        "quote": "No lightning today? What's the matter? Afraid I'll redirect it?"
+        "quote": "No lightning today? What's the matter? Afraid I'll redirect it?",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 62,
         "character": "bumi",
-        "quote": "Pants are an illusion and so is death."
+        "quote": "Pants are an illusion and so is death.",
+        "season": 2,
+        "episode": 19
     },
     {
         "id": 63,
         "character": "bumi",
-        "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities."
+        "quote": "Instead of seeing what they want you to see, you got to open your brain to the possibilities.",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 64,
         "character": "bumi",
-        "quote": "I didn't know what or when, but I knew I'd know it when I knew it!"
+        "quote": "I didn't know what or when, but I knew I'd know it when I knew it!",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 65,
         "character": "bumi",
-        "quote": "Lettuce leaf?"
+        "quote": "Lettuce leaf?",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 66,
         "character": "bumi",
-        "quote": "The newly refurbished one. Of course we've been calling it the New Chamber, but we really should number them. Take them to the refurbished chamber that was once bad."
+        "quote": "The newly refurbished one. Of course we've been calling it the New Chamber, but we really should number them. Take them to the refurbished chamber that was once bad.",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 67,
         "character": "bumi",
-        "quote": "Wait, someone's missing from your group, someone very important... WHERE'S MOMO?"
+        "quote": "Wait, someone's missing from your group, someone very important... WHERE'S MOMO?",
+        "season": 3,
+        "episode": 18
     },
     {
         "id": 68,
         "character": "bumi",
-        "quote": "It feels a little drafty in here. Are you hoping I'll catch a cold?"
+        "quote": "It feels a little drafty in here. Are you hoping I'll catch a cold?",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 69,
         "character": "bumi",
-        "quote": "There are no take-backsies in my kingdom."
+        "quote": "There are no take-backsies in my kingdom.",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 70,
         "character": "bumi",
-        "quote": "Kangaroo Island, eh? I heard that place was really hopping."
+        "quote": "Kangaroo Island, eh? I heard that place was really hopping.",
+        "season": 1,
+        "episode": 5
     },
     {
         "id": 71,
         "character": "bumi",
-        "quote": "Bumi, you're a mad genius."
+        "quote": "Bumi, you're a mad genius.",
+        "season": 1,
+        "episode": 5
     }
 ]

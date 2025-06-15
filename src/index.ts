@@ -64,7 +64,7 @@ app.get('/', (c) => {
     <li>[ x ] Add 10 quotes per character </li>
     <li>[ x ] Add 3 1-bit images per character </li>
     <li>[ x ] Add image url to quote response </li>
-    <li>[  ] Add Season/Episode (Book/Chapter) for each quote </li>
+    <li>[ x ] Add Season/Episode (Book/Chapter) for each quote </li>
     <li>[  ] Comission artwork</li>
   </ul>
   <footer style="position: fixed; bottom: 0; font-size: 0.8rem">
