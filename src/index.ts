@@ -100,7 +100,7 @@ app.get('/quotes/:id', (c) => {
 })
 
 app.get('/random-quote', (c) => {
-  const character = c.req.query('character');
+  const character = c.req.query('character')?.toLocaleLowerCase();
   if(character) { 
     return c.redirect(`/random-character-quote?character=${character}`, 301);
   }
@@ -114,7 +114,7 @@ app.get('/random-quote', (c) => {
 });
 
 app.get('/random-character-quote', (c) => {
-  const character = c.req.query('character');
+  const character = c.req.query('character')?.toLocaleLowerCase();
   if(!character) { 
     return c.text('No character provided.', 400)
   }
@@ -135,7 +135,7 @@ app.get('/random-character-quote', (c) => {
 });
 
 app.get('/quotes-by-character', async (c) => { 
-  const character = c.req.query('character');
+  const character = c.req.query('character')?.toLocaleLowerCase();
   if(!character) { 
     return c.text('No character provided.', 400)
   }
