@@ -11,6 +11,8 @@
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250613.0",
     "@types/node": "^24.6.2",
-    "wrangler": "^4.20.0"
+    "node-addon-api": "^8.5.0",
+    "node-gyp": "^12.2.0",
+    "wrangler": "^4.63.0"
   }
 }
