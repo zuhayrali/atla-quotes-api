@@ -1,5 +1,6 @@
 import { Hono } from 'hono'
 import { basicAuth } from 'hono/basic-auth';
+import { prettyJSON } from 'hono/pretty-json'
 import quotes from '../quotes/quotes.json';
 import { getCharacterImageUrl } from './helpers';
 
@@ -17,6 +18,8 @@ app.use('/*', async (c, next) => {
   })
   return auth(c,next)
 })
+
+app.use(prettyJSON())
 
 app.get('/', (c) => {
   const counts: Record<string, number> = {};
@@ -53,24 +56,9 @@ app.get('/', (c) => {
   Object.entries(counts).forEach((character) => { 
     HTML += (`<li>${character[0]}: ${character[1]}</li>`);
   })
-
-  HTML += "</ul>"
   
-  HTML += `
+  HTML += `</ul>
   <h4>Total quotes: ${quotes.length}</h4>
-  <h3>TODO</h3>
-  <ul>
-    <li>[ x ] OpenAPI / Swagger docs </li>
-    <li>[ x ] Add 10 quotes per character </li>
-    <li>[ x ] Add 3 1-bit images per character </li>
-    <li>[ x ] Add image url to quote response </li>
-    <li>[ x ] Add Season/Episode (Book/Chapter) for each quote </li>
-    <li>[  ] Comission artwork</li>
-  </ul>
-  <footer style="position: fixed; bottom: 0; font-size: 0.8rem">
-    note to self: 
-    <a href="https://motherfuckingwebsite.com/" target="_blank" rel="noopener noreferrer">do not make this look pretty :)</a>
-  </footer>
   `
   return c.html(
     HTML
