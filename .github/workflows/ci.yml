@@ -15,6 +15,3 @@ jobs:
           node-version: '25.x'
       - run: npm ci
       - run: npm test
-        env:
-          USERNAME: ${{ secrets.TEST_USERNAME }}
-          PASSWORD: ${{ secrets.TEST_PASSWORD }}
