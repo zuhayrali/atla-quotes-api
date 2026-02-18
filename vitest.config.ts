@@ -1,11 +1,18 @@
-import { defineWorkersConfig } from "@cloudflare/vitest-pool-workers/config";
+import { defineWorkersProject } from '@cloudflare/vitest-pool-workers/config'
 
-export default defineWorkersConfig({
+export default defineWorkersProject({
   test: {
+    globals: true,
     poolOptions: {
       workers: {
-        wrangler: { configPath: "./wrangler.toml" },
+        wrangler: { configPath: './wrangler.toml' },
+        miniflare: {
+          bindings: {
+            USERNAME: 'testuser',
+            PASSWORD: 'testpassword',
+          },
+        },
       },
     },
   },
-});
+})
