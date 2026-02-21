@@ -47,7 +47,6 @@ app.get('/', (c) => {
       </head>
       <h2>Avatar: The Last Airbender Quotes API</h2>
       <h2><a href="https://github.com/zuhayrali/atla-quotes-api" target="_blank" rel="noopener noreferrer">Source Code (GitHub)</a></h2>
-      <h2><a href="${new URL(c.req.url).origin}/dist/index.html" target="_blank" rel="noopener noreferrer">Swagger</a></h2>
       <p>Developed for plugin development on <a href="https://usetrmnl.com/" target="_blank" rel="noopener noreferrer">trmnl</a>.<p>
       <h3>Current Quotes per Character</h3>
       <ul>
