@@ -1,6 +1,9 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-    directory: "/" # root has package.json
+    directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-patch", "version-update:semver-minor"]
