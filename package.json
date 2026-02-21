@@ -15,7 +15,7 @@
     "@types/node": "^25",
     "node-addon-api": "^8.5.0",
     "node-gyp": "^12.2.0",
-    "vitest": "3.2.4",
+    "vitest": "4.0.18",
     "wrangler": "^4.67.0"
   }
 }
