@@ -109,3 +109,23 @@ user-agent: trmnl
 authorization: Basic YWFuZzphcHBh
 user-agent: trmnl
 ```
+
+## Using with Docker or podman 
+A (heavy) docker image is provided if you don't want to deploy using Cloudflare Workers. You can use the following docker compose: 
+```yml
+services:
+  atla-quotes-api:
+    image: ghcr.io/zuhayrali/atla-quotes-api:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - USERNAME=${USERNAME}
+      - PASSWORD=${PASSWORD}
+    restart: unless-stopped
+```
+
+Create a `.env` file alongside it:
+```
+USERNAME=youruser
+PASSWORD=yourpass
+```
