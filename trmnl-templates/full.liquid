@@ -1,0 +1,127 @@
+<div class="page-center">
+  <div class="grid grid--cols-2">
+    <div class="col col--start">
+      <img class="image-dither" src="{{ characterImg }}" alt="Character Portrait" />
+    </div>
+    <div class="col col--quote">
+      <div class="quote-wrapper">
+        <span class="description quote">{{ quote }}</span>
+        <span class="quote-reference">BOOK {{ season }}, CHAPTER {{ episode }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="title_bar">
+  <img class="image" src="https://usetrmnl.com/images/plugins/trmnl--render.svg" alt="Trmnl Logo">
+  <span class="title"></span>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const now = new Date();
+    const title = document.querySelector('.title');
+    const monthNames = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    title.textContent = `${monthNames[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+  });
+</script>
+
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.page-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 40px); /* leave room for title bar */
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.grid--cols-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  max-width: 90vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col--start img {
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.col--quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 45vw; /* was 40vw, gives long quotes more room */
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.quote {
+  font-size: clamp(18px, 5vw, 32px); /* fixed clamp */
+  margin: 0;
+  white-space: normal;
+  word-break: break-word;
+  text-align: left;
+  font-style: italic;
+}
+
+.quote-reference {
+  font-style: italic;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+/* Fixed title bar */
+.title_bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  background: white;
+}
+
+.title_bar img {
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+</style>
