@@ -110,6 +110,21 @@ authorization: Basic YWFuZzphcHBh
 user-agent: trmnl
 ```
 
+4. Liquid templates are provided under [trmnl-templates](trmnl-templates). Currently full page and quadrant templates are provided. 
+
+
+| | |
+|---|---|
+| ![Full Preview Example 1](examples/images/full/full_preview_1.png) | ![Full Preview Example 2](examples/images/full/full_preview_2.png) |
+| ![Full Preview Example 3](examples/images/full/full_preview_3.png) | ![Full Preview Example 4](examples/images/full/full_preview_4.png) |
+
+
+| | |
+|---|---|
+| ![Full Preview Example 1](examples/images/quadrant/quad_preview_1.png) | ![Full Preview Example 2](examples/images/quadrant/quad_preview_2.png) |
+| ![Full Preview Example 3](examples/images/quadrant/quad_preview_3.png) | ![Full Preview Example 4](examples/images/quadrant/quad_preview_4.png) |
+
+
 ## Using with Docker or podman 
 A (heavy) docker image is provided if you don't want to deploy using Cloudflare Workers. You can use the following docker compose: 
 ```yml
