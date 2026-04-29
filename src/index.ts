@@ -1,5 +1,6 @@
 import { Hono } from 'hono'
 import { basicAuth } from 'hono/basic-auth';
+import { HTTPException } from 'hono/http-exception'
 import { prettyJSON } from 'hono/pretty-json'
 import quotes from '../quotes/quotes.json';
 import { getCharacterImageUrl } from './helpers';
@@ -16,7 +17,14 @@ app.use('/*', async (c, next) => {
     username: c.env.USERNAME,
     password: c.env.PASSWORD,
   })
-  return auth(c,next)
+  try {
+    return await auth(c, next)
+  } catch (err) {
+    if (err instanceof HTTPException) {
+      return err.getResponse()
+    }
+    throw err
+  }
 })
 
 app.use(prettyJSON())
@@ -133,6 +141,13 @@ app.get('/quotes-by-character', async (c) => {
   }
   
   return c.json(characterQuotes)
+})
+
+app.onError((err, c) => {
+  if (err instanceof HTTPException) {
+    return err.getResponse()
+  }
+  return c.text('Internal Server Error', 500)
 })
 
 export default app
