@@ -13,7 +13,7 @@
     "tsx": "^4.21.0"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "^0.12.14",
+    "@cloudflare/vitest-pool-workers": "^0.15.1",
     "@cloudflare/workers-types": "4.20260228.0",
     "@types/node": "^25",
     "node-addon-api": "^8.5.0",
