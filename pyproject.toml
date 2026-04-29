@@ -1,0 +1,13 @@
+[project]
+name = "atla-quotes-api"
+version = "0.1.0"
+description = "Tooling scripts for managing quotes data"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+scripts = [
+    "rapidfuzz>=3.0.0",
+    "rich>=13.0.0",
+]
